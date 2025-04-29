@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Styled Horizontal Boxes</title>
+    <style>
+      .box1 {
+        width: 100%;
+        height: 50px;
+        background-color: rgb(223, 97, 24);
+        color: white;
+        text-align: center;
+        
+        padding: 5%;
+      }
+
+      .box2 {
+        width: 100%;
+        height: 50px;
+        background-color: rgb(69, 13, 211);
+        color: white;
+        text-align: center;
+        line-height: 50px;
+        padding: 5%;
+        img {
+           align-items:center ;
+          max-width: 150%;
+         max-height: 120px;
+        }
+      }
+
+      .box3 {
+        width: 100%;
+        height: 100px;
+        background-color: rgb(11, 147, 232);
+        color: white;
+      
+        line-height: 50px;
+        text-decoration: underline;
+        font-style: italic;
+        font-size: 200%;
+        border-radius: 8px;
+        padding: 5%;
+        
+      }
+
+      .box4 {
+        width: 100%;
+        height: 100px;
+        background-color: rgb(209, 20, 149);
+        color: rgb(18, 16, 16);
+        text-align: center;
+        line-height: 50px;
+        border-radius: 8px;
+        padding: 5%;
+      }
+      .box5 {
+        width: 100%;
+        height: 10px;
+        background-color: rgb(215, 9, 242);
+        color: rgb(18, 16, 16);
+        text-align: center;
+        line-height: 50px;
+        border-radius: 8px;
+        padding: 5%;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Box 1: Header -->
+      <div class="box box1">
+        <h2> Header</h2>
+      </div>
+
+      <!-- Box 2: Image -->
+      <div class="box box2">
+        <center><img src="white.jpeg" alt="Sample Image" /></center>
+      </div>
+
+      <!-- Box 3: Paragraph -->
+      <div class="box box3">
+        <p>
+          <b
+            >Flowers are vibrant and diverse, playing crucial roles in
+            ecosystems and cultures. They come in various shapes, colors, and
+            sizes, with some possessing delightful fragrances.</b
+          >
+        </p>
+      </div>
+
+      <!-- Box 4: Audio -->
+      <div class="box box4">
+         <iframe
+          width="100%"
+          max-height="450%"
+          src="https://www.youtube.com/embed/i810CxN5Q6Q?si=OYRgxb1sQSqVqc3A"
+          title="YouTube video player"
+          frameborder="1"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen.></iframe>
+        
+      </div>
+
+      <!-- Box 5: YouTube Video -->
+      <div class="box box5">
+       <audio controls>
+          <source
+            src="pookkalaesattruoyivedungalkuttywapcomringtone-6408.mp3"
+            type="audio/mpeg"
+          />
+          Your browser does not support the audio element.
+        </audio>
+        
+      </div>
+    </div>
+  </body>
+</html>
